@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
         if !pigeons[name]
           pigeons[name]={}
         end
-  #We then assign the keys to an array for the pigeon.    
+  #We then assign the color, gender, and lives keys to arrays for the pigeon.    
         if !pigeons[name][key]
           pigeons[name][key]=[]
         end
